@@ -1,6 +1,5 @@
-/* eslint-disable import/prefer-default-export */
-import DashMaterialUI from './components/DashMaterialUI.react';
+import Button from './components/Button.react.js';
 
 export {
-    DashMaterialUI
+    Button
 };
