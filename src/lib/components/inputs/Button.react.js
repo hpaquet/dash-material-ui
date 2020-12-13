@@ -1,65 +1,49 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {omit} from 'ramda';
-import MUIButton from '@material-ui/core/Button';
+import MuiButton from '@material-ui/core/Button';
 
 
+/**
+ * Button component from Material UI
+ */
 export default class Button extends Component {
 
     constructor(props) {
         super(props);
 
-        this.state = {
-                        disabled: props.disabled,
-                        n_clicks: props.n_clicks,
-                        n_clicks_previous: props.n_clicks_previous
-                    };
-
         this.handleClick = this.handleClick.bind(this);
     }
 
     handleClick() {
-        const n = this.props.n_clicks + 1
-
-        this.props.setProps({n_clicks: n,
-                            n_clicks_previous: n
-        });
-
-        this.setState({n_clicks: n,
-                            n_clicks_previous: n
-        });
-
+        if (!this.props.disabled && this.props.setProps) {
+                this.props.setProps({
+                    n_clicks: n_clicks + 1,
+                    n_clicks_timestamp: Date.now()
+            });
+        }
     }
 
     render() {
         const {
             id,
-            style,
             ...otherProps
-        } = this.props;
+        } = props;
 
         return (
-            <div id={id} style={style}>
-                <MUIButton {...omit(['setProps'], otherProps)} onClick={this.handleClick}>
-                    {this.props.children}
-                </MUIButton>
-            </div>
+            <>
+                <MuiButton id={id} onClick={this.handleClick}  {...omit(['setProps'], otherProps)}>
+                    {props.children}
+                </MuiButton>
+            </>
         );
     }
+
 }
 
 Button.defaultProps = {
-    style: {},
     n_clicks: 0,
-    n_clicks_previous: 0,
-    children: null,
-    classes: {},
-    disabled: false,
-    disableFocusRipple: false,
-    disableElevation: false,
-    className: '',
-    size: "medium",
-    setProps: () => {}
+    n_clicks_timestamp: -1,
 };
 
 Button.propTypes = {
@@ -79,9 +63,9 @@ Button.propTypes = {
     n_clicks: PropTypes.number,
 
     /**
-     * Previous number of time the component as been clicked on.
+     * Timestamp of the last time the component as been clicked on.
      */
-    n_clicks_previous: PropTypes.number,
+    n_clicks_timestamp: PropTypes.number,
 
     /**
      * The content of the component.
