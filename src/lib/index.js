@@ -1,6 +1,11 @@
-/* eslint-disable import/prefer-default-export */
-import DashMaterialUI from './components/DashMaterialUI.react';
+import Button from './components/inputs/Button.react.js';
+import Checkbox from './components/inputs/Checkbox.react.js';
+import Switch from './components/inputs/Switch.react.js';
+import TextField from './components/inputs/TextField.react.js';
 
 export {
-    DashMaterialUI
+    Button,
+    Checkbox,
+    Switch,
+    TextField
 };
