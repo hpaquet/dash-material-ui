@@ -30,7 +30,6 @@ jobs:
 
     - name: Build
       run: |
-        npm run clean
         npm run build
         python setup.py sdist bdist_wheel
 
