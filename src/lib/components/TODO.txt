@@ -1,35 +1,35 @@
 Layout:
-- Box
-2 Container
+x Box
+x Container
 - Grid
 - Grid list
 - Hidden
 
 Input:
-1 Button
+x Button
 - Button group
-1 Checkbox
+x Checkbox
 - Floating action button
 - Date / Time
-2 Radio
+x Radio
 - Select
-2 Slider
-1 Switch
-1 Text field
+- Slider
+x Switch
+x Text field
 - Transfer list
 
 Navigation :
 - Bottom navigation
 - Breadcrumbs
-- Drawer
-2 Link
+x Drawer
+x Link
 - Menu
 - Stepper
 - Tabs
 
 Surfaces:
-- App bar
-2 Paper
+x App bar
+- Paper
 - Card
 - Accordion
 
@@ -43,10 +43,10 @@ Data display:
 - Avatar
 - Badge
 - Chip
-- Divider
-- Icons
+x Divider
+x Icons
 - Material icons
-- List
+x List
 - Table
 - Tooltip
-- Typography
+x Typography

@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import MuiCheckbox from '@material-ui/core/Checkbox';
 import {omit} from "ramda";
+import {withStyles} from "@material-ui/core/styles";
 
 
 /**
@@ -22,13 +23,22 @@ export default class Checkbox extends Component {
     render() {
 
         const {
-            id,
+            customStyle,
             ...otherProps
         } = this.props;
 
+        if (customStyle){
+            const CustomCheckbox = withStyles(customStyle)(MuiCheckbox);
+            return (
+                <>
+                    <CustomCheckbox onChange={this.handleChange} {...omit(['setProps'], otherProps)}/>
+                </>
+            );
+        }
+
         return (
             <>
-                <MuiCheckbox id={id} checked={this.props.checked} onChange={this.handleChange} {...omit(['setProps'], otherProps)}/>
+                <MuiCheckbox onChange={this.handleChange} {...omit(['setProps'], otherProps)}/>
             </>
         );
     }
@@ -43,12 +53,17 @@ Checkbox.propTypes = {
     /**
      * The ID used to identify this component in Dash callbacks.
      */
-    id: PropTypes.string.isRequired,
+    id: PropTypes.string,
 
     /**
      * Style to apply to the component container.
      */
     style: PropTypes.object,
+
+    /**
+     * Custom checkbox style to apply to the component.
+     */
+    customStyle: PropTypes.object,
 
     /**
      * If true, the component is checked.

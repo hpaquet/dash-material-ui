@@ -1,15 +1,16 @@
 import React, {Component} from 'react';
+import { createMuiTheme, withStyles, ThemeProvider } from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
 import {omit} from 'ramda';
-import MuiButton from '@material-ui/core/Button';
+import MuiIconButton from '@material-ui/core/IconButton';
+import Badge from '@material-ui/core/Badge';
 import Icon from '@material-ui/core/Icon';
-import { createMuiTheme, withStyles, ThemeProvider } from '@material-ui/core/styles';
 
 
 /**
- * Button component from Material UI
+ * IconButton component from Material UI
  */
-export default class Button extends Component {
+export default class IconButton extends Component {
 
     constructor(props) {
         super(props);
@@ -28,6 +29,15 @@ export default class Button extends Component {
 
     render() {
         const {
+            ariaLabel,
+            badgeContent,
+            badgeMaxContent,
+            badgeAnchorOrigin,
+            badgeOverlap,
+            badgeVariant,
+            badgeInvisible,
+            badgeShowZero,
+            badgeColor,
             customStyle,
             palette,
             ...otherProps
@@ -35,17 +45,23 @@ export default class Button extends Component {
 
         const theme = createMuiTheme(palette);
 
-        if (this.props.icon) {
-            otherProps['startIcon'] = <Icon>{this.props.icon}</Icon>;
-        }
-
         if (customStyle){
-            const CustomButton = withStyles(customStyle)(MuiButton);
+            const CustomButton = withStyles(customStyle)(MuiIconButton);
             return (
                 <>
                     <ThemeProvider theme={theme}>
-                        <CustomButton onClick={this.handleClick} {...omit(['setProps'], otherProps)}>
-                            {this.props.children}
+                        <CustomButton aria-label={ariaLabel} onClick={this.handleClick} {...omit(['setProps'], otherProps)}>
+                            <Badge
+                                badgeContent={badgeContent}
+                                max={badgeMaxContent}
+                                anchorOrigin={badgeAnchorOrigin}
+                                color={badgeColor}
+                                overlap={badgeOverlap}
+                                variant={badgeVariant}
+                                invisible={badgeInvisible}
+                                showZero={badgeShowZero}>
+                                <Icon>{this.props.icon}</Icon>
+                            </Badge>
                         </CustomButton>
                     </ThemeProvider>
                 </>
@@ -55,9 +71,19 @@ export default class Button extends Component {
         return (
             <>
                 <ThemeProvider theme={theme}>
-                    <MuiButton onClick={this.handleClick} {...omit(['setProps'], otherProps)}>
-                        {this.props.children}
-                    </MuiButton>
+                    <MuiIconButton aria-label={ariaLabel} onClick={this.handleClick} {...omit(['setProps'], otherProps)}>
+                            <Badge
+                                badgeContent={badgeContent}
+                                max={badgeMaxContent}
+                                anchorOrigin={badgeAnchorOrigin}
+                                color={badgeColor}
+                                overlap={badgeOverlap}
+                                variant={badgeVariant}
+                                invisible={badgeInvisible}
+                                showZero={badgeShowZero}>
+                            <Icon>{this.props.icon}</Icon>
+                        </Badge>
+                    </MuiIconButton>
                 </ThemeProvider>
             </>
         );
@@ -65,13 +91,14 @@ export default class Button extends Component {
 
 }
 
-Button.defaultProps = {
+IconButton.defaultProps = {
     n_clicks: 0,
     n_clicks_timestamp: -1,
     palette: {},
+    badgeContent: 0,
 };
 
-Button.propTypes = {
+IconButton.propTypes = {
     /**
      * The ID used to identify this component in Dash callbacks.
      */
@@ -83,9 +110,59 @@ Button.propTypes = {
     style: PropTypes.object,
 
     /**
+     * 	The content rendered within the badge.
+     */
+    badgeContent: PropTypes.number,
+
+    /**
+     * Max count to show in badge.
+     */
+    badgeMaxContent: PropTypes.number,
+
+    /**
+     * The anchor of the badge.
+     */
+    badgeAnchorOrigin: PropTypes.string,
+
+    /**
+     * Wrapped shape the badge should overlap.
+     */
+    badgeOverlap: PropTypes.string,
+
+    /**
+     * The variant to use in the badge.
+     */
+    badgeVariant: PropTypes.string,
+
+    /**
+     * 	If true, the badge will be invisible.
+     */
+    badgeInvisible: PropTypes.bool,
+
+    /**
+     * The color of the badge.
+     */
+    badgeColor: PropTypes.string,
+
+    /**
+     * Controls whether the badge is hidden when badgeContent is zero.
+     */
+    badgeShowZero: PropTypes.bool,
+
+    /**
+     * If given, uses a negative margin to counteract the padding on one side.
+     */
+    edge: PropTypes.string,
+
+    /**
      * Custom button style to apply to the component.
      */
     customStyle: PropTypes.object,
+
+    /**
+     * Style to apply to the component container.
+     */
+    ariaLabel: PropTypes.string,
 
     /**
      * Number of time the component as been clicked on.
@@ -96,11 +173,6 @@ Button.propTypes = {
      * Timestamp of the last time the component as been clicked on.
      */
     n_clicks_timestamp: PropTypes.number,
-
-    /**
-     * The content of the component.
-     */
-    children: PropTypes.node,
 
     /**
      * Override or extend the styles applied to the component.
