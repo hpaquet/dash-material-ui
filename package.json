@@ -1,6 +1,6 @@
 {
   "name": "dash_material_ui",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Material UI components for Dash",
   "repository": {
     "type": "git",
