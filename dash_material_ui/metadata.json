@@ -1,0 +1,2325 @@
+{
+  "src/lib/components/datadisplay/Divider.react.js": {
+    "description": "Divider component from Material UI",
+    "displayName": "Divider",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID of this component."
+      },
+      "classes": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Override or extend the styles applied to the component."
+      },
+      "className": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Often used with CSS to style elements with common properties."
+      },
+      "absolute": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Absolutely position the element."
+      },
+      "flexItem": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, a vertical divider will have the correct height when used in flex container."
+      },
+      "light": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the divider will have a lighter color."
+      },
+      "orientation": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The divider orientation."
+      },
+      "variant": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The variant to use."
+      },
+      "palette": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Definition of the palettes."
+      },
+      "style": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The style of the divider."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\r\nto Dash, to make them available for callbacks."
+      }
+    }
+  },
+  "src/lib/components/datadisplay/Icon.react.js": {
+    "description": "Icon component from Material UI",
+    "displayName": "Icon",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID of this component."
+      },
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "The content of the drawer."
+      },
+      "classes": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Override or extend the styles applied to the component."
+      },
+      "className": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Often used with CSS to style elements with common properties."
+      },
+      "color": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The color of the component."
+      },
+      "fontSize": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The fontSize applied to the icon."
+      },
+      "palette": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Definition of the palettes."
+      },
+      "style": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The style of the text field."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\r\nto Dash, to make them available for callbacks."
+      }
+    }
+  },
+  "src/lib/components/datadisplay/List.react.js": {
+    "description": "List component from Material UI",
+    "displayName": "List",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID of this component."
+      },
+      "ariaLabel": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "Aria-Label of the list."
+      },
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "The content of the list."
+      },
+      "classes": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Override or extend the styles applied to the component."
+      },
+      "className": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Often used with CSS to style elements with common properties."
+      },
+      "dense": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, compact vertical padding designed for keyboard and mouse input will be used for the list and list items."
+      },
+      "disablePadding": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, vertical padding will be removed from the list."
+      },
+      "subheader": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "The content of the subheader, normally ListSubheader."
+      },
+      "palette": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Definition of the palettes."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\r\nto Dash, to make them available for callbacks."
+      }
+    }
+  },
+  "src/lib/components/datadisplay/ListItem.react.js": {
+    "description": "ListItem component from Material UI",
+    "displayName": "ListItem",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID of this component."
+      },
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "The content of the list."
+      },
+      "classes": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Override or extend the styles applied to the component."
+      },
+      "className": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Often used with CSS to style elements with common properties."
+      },
+      "alignItems": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Defines the align-items style property."
+      },
+      "autoFocus": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "If true, the list item will be focused during the first mount."
+      },
+      "button": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the list item will be a button (using ButtonBase)."
+      },
+      "dense": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, compact vertical padding designed for keyboard and mouse input will be used."
+      },
+      "disabled": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the list item will be disabled."
+      },
+      "disableGutters": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the left and right padding is removed."
+      },
+      "divider": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, a 1px light border is added to the bottom of the list item."
+      },
+      "selected": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Use to apply selected styling."
+      },
+      "primary": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The main content element."
+      },
+      "secondary": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The secondary content element."
+      },
+      "icon": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Icon of the item"
+      },
+      "avatarIcon": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Avatar icon of the item"
+      },
+      "inset": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the children will be indented."
+      },
+      "palette": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Definition of the palettes."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\r\nto Dash, to make them available for callbacks."
+      }
+    }
+  },
+  "src/lib/components/datadisplay/Typography.react.js": {
+    "description": "Typography component from Material UI",
+    "displayName": "Typography",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID of this component."
+      },
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "The content of the drawer."
+      },
+      "classes": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Override or extend the styles applied to the component."
+      },
+      "className": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Often used with CSS to style elements with common properties."
+      },
+      "align": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Set the text-align on the component."
+      },
+      "color": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The color of the component."
+      },
+      "display": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Controls the display type"
+      },
+      "gutterBottom": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the text will have a bottom margin."
+      },
+      "noWrap": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the text will not wrap, but instead will truncate with a text overflow ellipsis."
+      },
+      "paragraph": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "If true, the text will have a bottom margin."
+      },
+      "palette": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Definition of the palettes."
+      },
+      "style": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The style of the text field."
+      },
+      "variant": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Applies the style typography styles."
+      },
+      "variantMapping": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "The component maps the variant prop to a range of different HTML element types."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\r\nto Dash, to make them available for callbacks."
+      }
+    }
+  },
+  "src/lib/components/FormControl.react.js": {
+    "description": "FormControl component from Material UI",
+    "displayName": "FormControl",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Style to apply to the component container."
+      },
+      "customStyle": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Custom FormControl style to apply to the component."
+      },
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "The content of the component."
+      },
+      "classes": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Override or extend the styles applied to the component."
+      },
+      "color": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The color of the component."
+      },
+      "component": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The component used for the root node."
+      },
+      "disabled": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the FormControl will be disabled."
+      },
+      "error": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the label should be displayed in an error state."
+      },
+      "focused": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the component will be displayed in focused state."
+      },
+      "fullWidth": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "If true, the FormControl will take up the full width of its container."
+      },
+      "hiddenLabel": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the label will be hidden."
+      },
+      "margin": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "If dense or normal, will adjust vertical spacing of this and contained components."
+      },
+      "required": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "If true, the label will indicate that the input is required."
+      },
+      "size": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The size of the FormControl."
+      },
+      "variant": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The variant to use."
+      },
+      "className": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Class name to apply to the component."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\r\nto Dash, to make them available for callbacks."
+      }
+    }
+  },
+  "src/lib/components/FormControlLabel.react.js": {
+    "description": "FormControlLabel component from Material UI",
+    "displayName": "FormControlLabel",
+    "methods": [
+      {
+        "name": "handleChange",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "event",
+            "type": null
+          }
+        ],
+        "returns": null
+      }
+    ],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Style to apply to the component container."
+      },
+      "checked": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the component is checked."
+      },
+      "customStyle": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Custom FormControl style to apply to the component."
+      },
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "The content of the component."
+      },
+      "classes": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Override or extend the styles applied to the component."
+      },
+      "disabled": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the FormControl will be disabled."
+      },
+      "labelPlacement": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The position of the label."
+      },
+      "variant": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The variant to use."
+      },
+      "className": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Class name to apply to the component."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\r\nto Dash, to make them available for callbacks."
+      }
+    }
+  },
+  "src/lib/components/FormLabel.react.js": {
+    "description": "FormLabel component from Material UI",
+    "displayName": "FormLabel",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Style to apply to the component container."
+      },
+      "component": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The component used for the root node."
+      },
+      "customStyle": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Custom FormLabel style to apply to the component."
+      },
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "The content of the component."
+      },
+      "classes": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Override or extend the styles applied to the component."
+      },
+      "color": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The color of the component."
+      },
+      "disabled": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the FormLabel will be disabled."
+      },
+      "error": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the label should be displayed in an error state."
+      },
+      "filled": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the label should use filled classes key."
+      },
+      "focused": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "If true, the input of this label is focused (used by FormGroup components)."
+      },
+      "required": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the label will indicate that the input is required."
+      },
+      "className": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Class name to apply to the component."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\r\nto Dash, to make them available for callbacks."
+      }
+    }
+  },
+  "src/lib/components/inputs/Button.react.js": {
+    "description": "Button component from Material UI",
+    "displayName": "Button",
+    "methods": [
+      {
+        "name": "handleClick",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      }
+    ],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Style to apply to the component container."
+      },
+      "customStyle": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Custom button style to apply to the component."
+      },
+      "n_clicks": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Number of time the component as been clicked on.",
+        "defaultValue": {
+          "value": "0",
+          "computed": false
+        }
+      },
+      "n_clicks_timestamp": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Timestamp of the last time the component as been clicked on.",
+        "defaultValue": {
+          "value": "-1",
+          "computed": false
+        }
+      },
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "The content of the component."
+      },
+      "classes": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Override or extend the styles applied to the component."
+      },
+      "color": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The color of the component."
+      },
+      "disabled": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the button will be disabled."
+      },
+      "disableElevation": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, no elevation is used."
+      },
+      "disableFocusRipple": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the keyboard focus ripple will be disabled."
+      },
+      "disableRipple": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the ripple effect will be disabled."
+      },
+      "icon": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Name of the icon."
+      },
+      "fullWidth": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "If true, the button will take up the full width of its container."
+      },
+      "href": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The URL to link to when the button is clicked."
+      },
+      "size": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The size of the button."
+      },
+      "iconPosition": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Position of the icon (start/end)."
+      },
+      "palette": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Definition of the palettes.",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      },
+      "variant": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The variant to use."
+      },
+      "className": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Class name to apply to the component."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\r\nto Dash, to make them available for callbacks."
+      }
+    }
+  },
+  "src/lib/components/inputs/Checkbox.react.js": {
+    "description": "Checkbox component from Material UI",
+    "displayName": "Checkbox",
+    "methods": [
+      {
+        "name": "handleChange",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "event",
+            "type": null
+          }
+        ],
+        "returns": null
+      }
+    ],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Style to apply to the component container."
+      },
+      "customStyle": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Custom checkbox style to apply to the component."
+      },
+      "checked": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the component is checked.",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "checkedIcon": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "The icon to display when the component is checked."
+      },
+      "classes": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Override or extend the styles applied to the component."
+      },
+      "color": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The color of the component."
+      },
+      "disabled": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the checkbox will be disabled."
+      },
+      "disableRipple": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the ripple effect will be disabled."
+      },
+      "icon": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "The icon to display when the component is unchecked."
+      },
+      "indeterminate": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the component appears indeterminate."
+      },
+      "indeterminateIcon": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "The icon to display when the component is indeterminate."
+      },
+      "size": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The size of the checkbox."
+      },
+      "value": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "The value of the component."
+      },
+      "className": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Class name to apply to the component."
+      }
+    }
+  },
+  "src/lib/components/inputs/IconButton.react.js": {
+    "description": "IconButton component from Material UI",
+    "displayName": "IconButton",
+    "methods": [
+      {
+        "name": "handleClick",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      }
+    ],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Style to apply to the component container."
+      },
+      "badgeContent": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "The content rendered within the badge.",
+        "defaultValue": {
+          "value": "0",
+          "computed": false
+        }
+      },
+      "badgeMaxContent": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Max count to show in badge."
+      },
+      "badgeAnchorOrigin": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The anchor of the badge."
+      },
+      "badgeOverlap": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Wrapped shape the badge should overlap."
+      },
+      "badgeVariant": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The variant to use in the badge."
+      },
+      "badgeInvisible": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the badge will be invisible."
+      },
+      "badgeColor": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The color of the badge."
+      },
+      "badgeShowZero": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Controls whether the badge is hidden when badgeContent is zero."
+      },
+      "edge": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "If given, uses a negative margin to counteract the padding on one side."
+      },
+      "customStyle": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Custom button style to apply to the component."
+      },
+      "ariaLabel": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Style to apply to the component container."
+      },
+      "n_clicks": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Number of time the component as been clicked on.",
+        "defaultValue": {
+          "value": "0",
+          "computed": false
+        }
+      },
+      "n_clicks_timestamp": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Timestamp of the last time the component as been clicked on.",
+        "defaultValue": {
+          "value": "-1",
+          "computed": false
+        }
+      },
+      "classes": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Override or extend the styles applied to the component."
+      },
+      "color": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The color of the component."
+      },
+      "disabled": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the button will be disabled."
+      },
+      "disableElevation": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, no elevation is used."
+      },
+      "disableFocusRipple": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the keyboard focus ripple will be disabled."
+      },
+      "disableRipple": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the ripple effect will be disabled."
+      },
+      "icon": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Name of the icon."
+      },
+      "fullWidth": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "If true, the button will take up the full width of its container."
+      },
+      "href": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The URL to link to when the button is clicked."
+      },
+      "size": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The size of the button."
+      },
+      "iconPosition": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Position of the icon (start/end)."
+      },
+      "palette": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Definition of the palettes.",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      },
+      "variant": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The variant to use."
+      },
+      "className": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Class name to apply to the component."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\r\nto Dash, to make them available for callbacks."
+      }
+    }
+  },
+  "src/lib/components/inputs/InputBase.react.js": {
+    "description": "InputBase component from Material UI",
+    "displayName": "InputBase",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID of this component."
+      },
+      "classes": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Override or extend the styles applied to the component."
+      },
+      "autoComplete": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "This prop helps users to fill forms faster, especially on mobile devices."
+      },
+      "autoFocus": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the input element will be focused during the first mount."
+      },
+      "color": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The color of the component."
+      },
+      "defaultValue": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The default input element value. Use when the component is not controlled."
+      },
+      "disabled": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the input element will be disabled."
+      },
+      "error": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the input will indicate an error."
+      },
+      "inputProps": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Attributes applied to the input element."
+      },
+      "fullWidth": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the input will take up the full width of its container."
+      },
+      "margin": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "If dense, will adjust vertical spacing."
+      },
+      "multiline": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, a textarea element will be rendered."
+      },
+      "name": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Name attribute of the input element."
+      },
+      "placeholder": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The short hint displayed in the input before the user enters a value."
+      },
+      "readOnly": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "It prevents the user from changing the value of the field (not from interacting with the field)."
+      },
+      "rowsMax": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Maximum number of rows to display when multiline option is set to true."
+      },
+      "rows": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Number of rows to display when multiline option is set to true."
+      },
+      "rowsMin": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Minimum number of rows to display when multiline option is set to true."
+      },
+      "type": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Type of the input element."
+      },
+      "value": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The value of the input element, required for a controlled component."
+      },
+      "required": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the input element will be required."
+      },
+      "palette": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Definition of the palettes."
+      },
+      "style": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The style of the text field."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\r\nto Dash, to make them available for callbacks."
+      }
+    }
+  },
+  "src/lib/components/inputs/Radio.react.js": {
+    "description": "Radio component from Material UI",
+    "displayName": "Radio",
+    "methods": [
+      {
+        "name": "handleChange",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "event",
+            "type": null
+          }
+        ],
+        "returns": null
+      }
+    ],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID of this component."
+      },
+      "checked": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the component is checked.",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "checked_timestamp": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Timestamp of the last time the component as been clicked on.",
+        "defaultValue": {
+          "value": "-1",
+          "computed": false
+        }
+      },
+      "classes": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Override or extend the styles applied to the component."
+      },
+      "color": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The color of the component."
+      },
+      "disabled": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the switch will be disabled."
+      },
+      "disableRipple": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the ripple effect will be disabled."
+      },
+      "label": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The text to be used in an enclosing label element."
+      },
+      "labelPlacement": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The position of the label."
+      },
+      "name": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Name attribute of the input element."
+      },
+      "size": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The size of the switch."
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "The style of the switch."
+      },
+      "required": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the input element will be required."
+      },
+      "value": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The value of the component."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\r\nto Dash, to make them available for callbacks."
+      }
+    }
+  },
+  "src/lib/components/inputs/Switch.react.js": {
+    "description": "Switch component from Material UI",
+    "displayName": "Switch",
+    "methods": [
+      {
+        "name": "handleChange",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "event",
+            "type": null
+          }
+        ],
+        "returns": null
+      }
+    ],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID of this component."
+      },
+      "checked": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the component is checked.",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "checkedIcon": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "The icon to display when the component is checked."
+      },
+      "classes": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Override or extend the styles applied to the component."
+      },
+      "color": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The color of the component."
+      },
+      "disabled": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the switch will be disabled."
+      },
+      "disableRipple": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the ripple effect will be disabled."
+      },
+      "edge": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "If given, uses a negative margin to counteract the padding on one side."
+      },
+      "icon": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "The icon to display when the component is unchecked."
+      },
+      "size": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The size of the switch."
+      },
+      "style": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The style of the switch."
+      },
+      "value": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The value of the component."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\r\nto Dash, to make them available for callbacks."
+      }
+    }
+  },
+  "src/lib/components/inputs/TextField.react.js": {
+    "description": "Text field component from Material UI",
+    "displayName": "TextField",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID of this component."
+      },
+      "autoComplete": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "This prop helps users to fill forms faster, especially on mobile devices."
+      },
+      "autoFocus": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "If true, the input element will be focused during the first mount."
+      },
+      "classes": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Override or extend the styles applied to the component."
+      },
+      "color": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The color of the component."
+      },
+      "defaultValue": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The default value of the input element."
+      },
+      "disabled": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the input element will be disabled."
+      },
+      "error": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the label will be displayed in an error state."
+      },
+      "FormHelperTextProps": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Props applied to the FormHelperText element."
+      },
+      "fullWidth": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the input will take up the full width of its container."
+      },
+      "InputLabelProps": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Props applied to the InputLabel element."
+      },
+      "inputProps": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Attributes applied to the input element."
+      },
+      "label": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The label content."
+      },
+      "margin": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "If dense or normal, will adjust vertical spacing of this and contained components."
+      },
+      "multiline": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, a textarea element will be rendered instead of an input."
+      },
+      "name": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Name attribute of the input element."
+      },
+      "placeholder": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The short hint displayed in the input before the user enters a value."
+      },
+      "rows": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Number of rows to display when multiline option is set to true."
+      },
+      "rowsMax": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Maximum number of rows to display when multiline option is set to true."
+      },
+      "select": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Maximum number of rows to display when multiline option is set to true."
+      },
+      "size": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The size of the text field."
+      },
+      "type": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Type of the input element. It should be a valid HTML5 input type."
+      },
+      "style": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The style of the text field."
+      },
+      "value": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The value of the input element, required for a controlled component."
+      },
+      "variant": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The variant to use."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\r\nto Dash, to make them available for callbacks."
+      }
+    }
+  },
+  "src/lib/components/layout/Box.react.js": {
+    "description": "Box component from Material UI",
+    "displayName": "Box",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID of this component."
+      },
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "The content of the link."
+      },
+      "className": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Override or extend the styles applied to the component."
+      },
+      "disableGutters": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the left and right padding is removed."
+      },
+      "fixed": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Set the max-width to match the min-width of the current breakpoint."
+      },
+      "maxWidth": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Determine the max-width of the container."
+      },
+      "style": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The style of the text field."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\r\nto Dash, to make them available for callbacks."
+      }
+    }
+  },
+  "src/lib/components/layout/Container.react.js": {
+    "description": "Container component from Material UI",
+    "displayName": "Container",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID of this component."
+      },
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "The content of the link."
+      },
+      "className": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Override or extend the styles applied to the component."
+      },
+      "style": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The style of the text field."
+      },
+      "clone": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the box will recycle its children DOM element."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\r\nto Dash, to make them available for callbacks."
+      }
+    }
+  },
+  "src/lib/components/navigation/Drawer.react.js": {
+    "description": "Drawer component from Material UI",
+    "displayName": "Drawer",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID of this component."
+      },
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "The content of the drawer."
+      },
+      "classes": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Override or extend the styles applied to the component."
+      },
+      "className": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Often used with CSS to style elements with common properties."
+      },
+      "anchor": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Side from which the drawer will appear."
+      },
+      "elevation": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "The elevation of the drawer."
+      },
+      "open": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the drawer is open."
+      },
+      "transitionDuration": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "The duration for the transition, in milliseconds."
+      },
+      "style": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The style of the text field."
+      },
+      "variant": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The variant to use."
+      },
+      "palette": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Definition of the palettes."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\r\nto Dash, to make them available for callbacks."
+      }
+    }
+  },
+  "src/lib/components/navigation/Link.react.js": {
+    "description": "Link component from Material UI",
+    "displayName": "Link",
+    "methods": [
+      {
+        "name": "preventDefault",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "event",
+            "type": null
+          }
+        ],
+        "returns": null
+      }
+    ],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID of this component."
+      },
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "The content of the link."
+      },
+      "classes": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Override or extend the styles applied to the component."
+      },
+      "color": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The color of the component."
+      },
+      "TypographyClasses": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Classes prop applied to the Typography element."
+      },
+      "underline": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Controls when the link should have an underline."
+      },
+      "style": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The style of the text field."
+      },
+      "variant": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The variant to use."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\r\nto Dash, to make them available for callbacks."
+      }
+    }
+  },
+  "src/lib/components/surfaces/AppBar.react.js": {
+    "description": "AppBar component from Material UI",
+    "displayName": "AppBar",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID of this component."
+      },
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "The content of the drawer."
+      },
+      "classes": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Override or extend the styles applied to the component."
+      },
+      "color": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The color of the component."
+      },
+      "palette": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Definition of the palettes."
+      },
+      "position": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The positioning type."
+      },
+      "style": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The style of the text field."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\r\nto Dash, to make them available for callbacks."
+      }
+    }
+  }
+}
